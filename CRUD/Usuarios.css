@@ -1,0 +1,279 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-style: italic;
+    font-family: "Roboto", sans-serif;
+    background-color: white;
+}
+
+@keyframes myAnim {
+
+    0%,
+    50%,
+    100% {
+        opacity: 1;
+    }
+
+    25%,
+    75% {
+        opacity: 0;
+    }
+}
+
+#Encabezado {
+    text-align: center;
+    font-style: italic;
+    font-size: 400%;
+}
+
+#theliminar {
+    color: red;
+}
+
+#theditar {
+    color: green;
+}
+
+#Actualizar {
+    color: green;
+    width: 80px;
+    height: 50px;
+    font-size: 20px;
+}
+
+#btnagg
+{
+    font-size: 22px;
+    padding:12px 28px;
+    border-radius: 10px;
+}
+
+div.usuarios
+{
+    display: flex;
+}
+
+#infopagina
+{
+    text-align: center;
+    color: grey;
+}
+
+#btnMostrar {
+    appearance: none;
+    background-color: #2ea44f;
+    border: 1px solid rgba(27, 31, 35, .15);
+    border-radius: 6px;
+    box-shadow: rgb(27 31 35 / 10%) 0 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+#btnEsconder {
+    appearance: none;
+    background-color: #2ea44f;
+    border: 1px solid rgba(27, 31, 35, .15);
+    border-radius: 6px;
+    box-shadow: rgb(27 31 35 / 10%) 0 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+#btnGuardar {
+    align-items: center;
+    appearance: button;
+    background-color: #0276FF;
+    border-radius: 8px;
+    border-style: none;
+    box-shadow: rgb(255 255 255 / 26%) 0 1px 2px inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    flex-direction: row;
+    flex-shrink: 0;
+    font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.15;
+    margin: 0;
+    padding: 10px 21px;
+    text-align: center;
+    text-transform: none;
+    transition: color .13s ease-in-out,background .13s ease-in-out,opacity .13s ease-in-out,box-shadow .13s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+
+#btnNueva {
+    align-items: center;
+    appearance: button;
+    background-color: red;
+    border-radius: 8px;
+    border-style: none;
+    box-shadow: rgb(255 255 255 / 26%) 0 1px 2px inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    flex-direction: row;
+    flex-shrink: 0;
+    font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.15;
+    margin-left: 200px;
+    padding: 10px 21px;
+    text-align: center;
+    text-transform: none;
+    transition: color .13s ease-in-out,background .13s ease-in-out,opacity .13s ease-in-out,box-shadow .13s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+
+
+.dark-mode-button
+  {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 5px;
+    background: black;
+  }
+
+  html.dark-mode
+  {
+    filter: invert(100%);
+
+  }
+
+
+  #sun
+  {
+    background: black;
+    color: rgb(238, 195, 6);
+    border-radius: 100% ;
+  }
+
+  #moon
+  {
+    background: black;
+    color: white;
+    border-radius: 100%;
+  }
+
+  .Usuarios
+  {
+    text-align: center;
+    padding-top: 20px;
+  }
+
+
+  table,th
+  {
+    border: black 2px solid;
+    border-collapse:collapse;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    font-size: 140%;
+  }
+
+  h2
+  {
+    font-size: 180%;
+  }
+
+#Id,#Cantidad,#Importe{
+    width: 80px;
+    height: 50px;
+    font-size: 20px;
+  }
+
+  #Descripcion
+  {
+    height: 50px;
+    font-size: 20px;
+  }
+
+  .BotonesGuardarYNueva
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  #LinkNuevaNota
+  {
+    color: red;
+    padding: 10px 21px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150%;
+    background-color: black;
+  }
+
+    .WaterMark {
+      margin: 0 auto;
+      text-align: center;
+      position:sticky;
+      bottom: 0;
+    }
+
+    .NuevaNota
+    {
+      text-align: right;
+      padding-right: 30px;
+    }
+
+    #TotalCell
+    {
+      background-color: yellow;
+    }
+
+    #FormEditarProducto
+    {
+      margin: 0 auto;
+      text-align: center;
+      width: 80px;
+      height: 50px;
+      font-size: 20px;
+      padding: 20px;
+    }
+
+    #Input
+    {
+      padding: 20px;
+    }
